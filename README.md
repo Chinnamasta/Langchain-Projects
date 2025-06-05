@@ -8,6 +8,8 @@ Aqui, você encontrará uma coleção de experimentos, desafios e aplicações c
 
 1 - **Tradução e Resumo com LCEL:** Demonstra a criação de chains utilizando a Langchain Expression Language (LCEL) para traduzir textos de inglês para português e, em seguida, resumir o conteúdo traduzido. Este projeto explora a combinação de diferentes modelos de linguagem e prompts para realizar tarefas complexas de processamento de texto de forma eficiente e modular.
 
+2 - **Criando um simulador para obter e-mails:** Este é um projeto em Python que simula um assistente pessoal para gerenciar e-mails. Ele serve como um passo inicial para entender como funções podem ser estruturadas para interagir com serviços externos, como uma caixa de entrada de e-mails.
+
 ## Em Desenvolvimento
 
 Novos projetos e funcionalidades estão sempre em desenvolvimento! Fique de olho para futuras adições que explorarão outros aspectos do Langchain e suas integrações.
