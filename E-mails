@@ -1,0 +1,43 @@
+# 📧 Assistente Pessoal de E-mails em Python (Simulação)
+
+Este é um projeto em Python que simula um assistente pessoal para gerenciar e-mails. Ele serve como um passo inicial para entender como funções podem ser estruturadas para interagir com serviços externos, como uma caixa de entrada de e-mails.
+
+## 🚀 Funcionalidades Atuais (Simuladas)
+
+O assistente possui as seguintes funcionalidades, que operam sobre um conjunto de e-mails simulados em memória:
+
+1.  **Obter E-mails**:
+    * Filtra e-mails por status (`todos`, `não lidos`, `lidos`).
+    * Permite definir a quantidade de e-mails a serem retornados.
+    * Suporta filtragem por remetente específico.
+    * Permite buscar e-mails que contenham palavras-chave no assunto ou conteúdo.
+
+2.  **Marcar E-mail como Lido/Não Lido**:
+    * Altera o status de leitura de um e-mail específico utilizando seu ID.
+
+3.  **Enviar E-mail**:
+    * Simula o envio de um novo e-mail para um destinatário, com assunto e conteúdo definidos.
+
+## ⚙️ Como Rodar o Projeto
+
+### Pré-requisitos
+
+Certifique-se de ter o Python instalado em sua máquina. Este projeto foi desenvolvido com Python 3.9+.
+
+### Instalação
+
+Não há bibliotecas externas complexas exigidas para a execução básica. Apenas `pydantic` é utilizada para estruturar as entradas das funções, o que pode ser instalado via pip:
+
+```bash
+pip install pydantic
+
+🧠 Próximos Passos e Possíveis Evoluções
+Este projeto é uma base para futuras expansões. Algumas ideias para desenvolvimentos futuros incluem:
+  - Integração Real com Provedores de E-mail: Substituir as funções simuladas por chamadas a APIs reais de serviços de e-mail (como Gmail API, Microsoft Graph API) ou bibliotecas como imaplib e smtplib para gerenciar e-mails de verdade.
+  - Interface de Usuário: Criar uma interface mais amigável (terminal interativo, web ou desktop) para interagir com o assistente.
+  - Persistência de Dados: Salvar o estado dos e-mails (e-mails lidos/não lidos, etc.) em um arquivo (JSON, SQLite) para que as mudanças não sejam perdidas ao fechar o programa.
+  -Integração com Modelos de Linguagem (LLMs): Utilizar frameworks como LangChain para permitir interação com o assistente via linguagem natural, transformando comandos de texto em chamadas de função.
+
+🤝 Contribuições
+Sinta-se à vontade para explorar, modificar e melhorar este projeto! Se tiver sugestões ou encontrar problemas, pode abrir uma "issue" ou fazer um "pull request" no repositório.
+
