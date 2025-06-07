@@ -12,6 +12,8 @@ Aqui, você encontrará uma coleção de experimentos, desafios e aplicações c
 
 3 - **Receita de Bolo com LLMs:** Este projeto demonstra como utilizar **Modelos de Linguagem (LLMs)** para extrair informações úteis de um texto comum do cotidiano — neste caso, uma **receita de bolo de cenoura** 🍰. A ideia é mostrar como um agente de IA pode estruturar dados, criar listas de compras e até automatizar processos simples.
 
+4 - **E-mail Tools:** Esta é uma tool de envio de email que depois de fornecê-la ao nosso modelo de linguagem, cria uma estrutura simples de agente.
+
 ## Em Desenvolvimento
 
 Novos projetos e funcionalidades estão sempre em desenvolvimento! Fique de olho para futuras adições que explorarão outros aspectos do Langchain e suas integrações.
